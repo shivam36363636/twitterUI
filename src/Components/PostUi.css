@@ -1,0 +1,91 @@
+.postform {
+  background-color: #14202e;
+  padding: 1.6rem 3.2rem 1.6rem 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.postform__input {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.face__image {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+}
+
+.input__form,
+.post__text {
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  font-size: 1.8rem;
+  border-radius: 9px;
+  background-color: #253243;
+  color: #bac7d2;
+  border: none;
+  margin-bottom: 3.2rem;
+}
+.input__field {
+  flex: 1;
+}
+
+.postform__media,
+.user__info {
+  display: flex;
+  justify-content: space-between;
+}
+.media__icon,
+.media__btn {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.icon {
+  height: 2rem;
+  width: 2rem;
+  color: #bac7d2;
+}
+
+.tweet__btn {
+  padding: 0.4rem 2.6rem;
+  border-radius: 30rem;
+  background-color: #2888fd;
+  color: white;
+}
+
+.media__icon__like,
+.media__icon__comment {
+  font-size: 1.4rem;
+  color: #bac7d2;
+}
+.user__info {
+  margin-bottom: 3.2rem;
+}
+
+strong {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.username {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #bac7d2;
+  margin-bottom: 0.8rem;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #bac7d2;
+}
+
+.post__text {
+  font-size: 1.6rem;
+}
+.post__img {
+  width: 100%;
+}

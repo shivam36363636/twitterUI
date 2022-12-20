@@ -1,0 +1,11 @@
+.gallery__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 12px;
+  overflow: hidden;
+  gap: 0.3rem;
+  /* background-color: black; */
+}
+.pic {
+  width: 100%;
+}

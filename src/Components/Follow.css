@@ -1,0 +1,67 @@
+.trend__box {
+  background-color: #14202e;
+  padding: 1.6rem 1.6rem 2.4rem 1.6rem;
+  position: relative;
+}
+
+.trends__tab {
+  border-bottom: 1px solid #bac7d2;
+  display: flex;
+  align-items: center;
+  color: #bac7d2;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  padding-bottom: 0.8rem;
+}
+
+.trends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #bac7d2;
+  padding: 1.6rem 0;
+  margin-bottom: 2.4rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.hashtags__text {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.hashtags__number {
+  letter-spacing: 1px;
+}
+.showbtn {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 1.6rem;
+  color: blue;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.follow__btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 30rem;
+  border: 1px solid #2888fb;
+  background-color: transparent;
+  color: white;
+}
+.profile__pic {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.avatar {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.follow {
+  margin-bottom: 1.6rem;
+}

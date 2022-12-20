@@ -1,0 +1,47 @@
+.navbar {
+  height: 8rem;
+  background-color: #14202e;
+  display: flex;
+  align-items: center;
+  padding: 0 3.2rem;
+  position: relative;
+}
+
+.unorder__items {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+}
+.unorder__items li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.logo__box,
+.search__field {
+  flex: 1;
+}
+.search__field {
+  display: flex;
+}
+.search {
+  display: inline-block;
+  margin-left: auto;
+  border-radius: 9px;
+  background-color: #0c131d;
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.6rem;
+  width: 50%;
+  color: #fff;
+}
+
+.nav__logo {
+  color: #07a7f5;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+  left: 4rem;
+  transform: translateY(30%);
+}
